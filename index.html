@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body{
+            margin: 0px;
+            background-color: black;
+        }
+        #navbar{
+            display: flex;
+            background-color: rgb(29, 28, 28);
+            font-size: 25px;
+            justify-content: space-around;
+            margin-top: 0%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            color: white;
+        }
+        #about{
+            color:white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: space-around;
+            margin-top: 5%;
+            text-align: justify;
+            background-image: url("Content\bacimage.png")
+            
+        }
+        #profile{
+            width: 20%;
+            border-radius: 50%;
+            
+        }
+        #about>div{
+            width: 50%;
+        }
+        @media screen and (min-width:475px) and (max-width:690px) {
+            #about{
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 5%;
+            }
+            
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <div>About me</div>
+        <div>Skills </div>
+        <div>Project</div>
+        <div>Contact & Resume</div>
+    </div>
+    <div id="about">
+        <img id="profile" src="Content\profile.jpeg">
+        <div>
+            <p>I am a highly motivated and cheerful person. I always try to find a way to grow myself more and more and made myself a more Better version of myself. I am also trying to involve myself in Extracurricular activities so that won't become a one-track person, I am frank in nature which makes me a good team player and as a Team player I have a good habit of never giving up which also motivates others to work harder I also have leadership skills which I learn from my NCC Experience, I have a bad habit to try to do things perfectly so sometimes I overdo myself, I am skilled in my work and always ready to learn new things Thank you.</p>
+        </div>
+    </div>
+</body>
+</html>
