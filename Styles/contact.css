@@ -1,0 +1,16 @@
+#contact{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    gap: 15px;
+    margin-top: 5%;
+}
+#contact>div>div{
+    display: flex;
+    color: white;
+}
+#contact>div>div>p{
+    margin-top: 15px;
+    margin-left: 10px;
+}

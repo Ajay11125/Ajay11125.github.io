@@ -1,0 +1,17 @@
+#footer{
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-image:linear-gradient(270deg,rgb(2 9 43),rgb(60 2 14)) ;
+    color: white;
+}
+.footer-body1>.footer-icons{
+    display: flex;
+    list-style: none;
+    margin-right: 25px;
+}
+.footer-body1>.footer-icons>li{
+    margin-right: 25px;
+}

@@ -1,0 +1,127 @@
+body{
+    margin: 0px;
+    background-image: url('https://ashwaniportfolio123.000webhostapp.com/image/banner.png')
+}
+#navbar{
+    position:fixed;
+    display: flex;
+    justify-content: space-between;  
+    background: transparent!important; 
+    box-shadow: 0 0 100px -20px rgb(255 0 200 / 27%), 0 0 60px -30px rgba(52, 13, 59, 0.24), inset 0 0 6px 0 rgb(124 83 150 / 87);
+  
+}
+#navbar>:nth-child(1){
+    width: 20%;
+    height: 20%; 
+    margin-top: -10px;
+}
+#navbar>:nth-child(1)>img{
+    width: 50%; 
+    
+}
+#navbar>div{
+    width: 50%;
+    display: flex;
+    font-size: 21px;
+    margin-top: 0%;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    color:  #eca1a6;
+    font-family: "Raleway",serif;
+    margin-right: 5%;
+    cursor: pointer;
+
+}
+.profile{
+    width: 100%;
+    text-align: center;
+    padding-top: 15%;
+    
+}
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.pro-3 {
+    font-family: "Ubuntu", sans-serif;
+    padding: 5px;
+    font-size: 1vw;
+    color: #fff;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.pro-1 {
+    
+    font-size: 3vw;
+    color: #fff;
+    font-weight: 300;
+    padding: 5px;
+    letter-spacing: 2px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.pro-2 {
+    padding: 5px;
+    font-size: 6vw;
+    color: #db9a64;
+    font-weight: 300;
+    font-family: "Ubuntu", sans-serif;
+}
+#changing {
+    width: 0ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: text 2s steps(17) infinite;
+    border-right: 3px solid rgb(255, 246, 246);
+    font-size: 3vw;
+}
+.wave{
+    animation-name: wave-animation;
+    animation-duration: 2.1s;
+    transform-origin: 70% 70%;
+    animation-iteration-count: infinite;
+    display: inline-block;
+}
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }  
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) }  
+  100% { transform: rotate( 0.0deg) }
+}
+
+@media screen and (min-width:481px) and (max-width:1000px){
+    .profile{
+        width: 100%;
+        text-align: center;
+        padding-top: 25%;
+        margin-bottom: 25%;  
+    }
+    #navbar>div>img{
+        display: none;
+        width: 0%;
+    }
+    #navbar>div:nth-child(1){
+        width: 0%;
+    }
+    #navbar{
+        width: 100%;
+    }
+    #navbar>div:nth-child(2){
+        width: 100%;
+        padding-bottom: 20px;
+        
+    }
+}
+@media screen and (max-width:480px){
+    
+}
