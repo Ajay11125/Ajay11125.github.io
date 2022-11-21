@@ -64,3 +64,8 @@
     border: 1px solid white;
     border-radius: 5px;
 }
+@media screen and (min-width:281px) and (max-width:1000px){
+    #project{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

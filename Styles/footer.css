@@ -1,4 +1,5 @@
 #footer{
+    
     margin-top: 65px;
     display: flex;
     justify-content: space-between;
@@ -6,12 +7,25 @@
     padding-top: 15px;
     background-image:linear-gradient(270deg,rgb(2 9 43),rgb(60 2 14)) ;
     color: white;
+    flex-wrap: nowrap;
 }
 .footer-body1>.footer-icons{
     display: flex;
     list-style: none;
     margin-right: 25px;
+   
 }
 .footer-body1>.footer-icons>li{
     margin-right: 25px;
+}
+@media screen and (min-width:281px) and (max-width:780px){
+    #footer{
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .footer-body1>.footer-icons{
+        justify-content: center;
+    }
+    
 }

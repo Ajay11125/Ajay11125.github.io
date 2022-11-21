@@ -14,3 +14,8 @@
     margin-top: 15px;
     margin-left: 10px;
 }
+@media screen and (min-width:281px) and (max-width:780px){
+    #contact{
+        grid-template-columns: 1fr ; 
+    }
+}

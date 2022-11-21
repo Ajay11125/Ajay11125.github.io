@@ -120,6 +120,7 @@
 @media screen and (max-width:480px){
     #skills{
         grid-template-columns: 1fr;
+        
     }
     #skills>div{
         justify-self: center;
@@ -128,7 +129,7 @@
         display:block;
         align-items: center;
         margin-bottom: 5%;
-
+        
     }
     #about>div{
         margin: auto;
