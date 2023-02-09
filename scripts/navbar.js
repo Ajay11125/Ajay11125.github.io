@@ -20,4 +20,8 @@ function openNav() {
   function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
+ function opentab(){
+    window.open(
+        "https://drive.google.com/file/d/1Vj5FciVfVo3r3oQfEJEldgxc8DMTJ8BF/view?usp=sharing", "_blank");
+ }
 
