@@ -1137,7 +1137,11 @@ a:hover {
   color: #fff;
   text-align: center;
 }
-
+.headings{
+  color: black;
+  text-align: center;
+  
+}
 .calendar {
   width: 70%;
   margin-top: 25px;
