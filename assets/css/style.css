@@ -830,15 +830,20 @@ a:hover {
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
+
 }
 
 .about-mf .about-img {
   margin-bottom: 2rem;
+
+
 }
 
 .about-mf .about-img img {
   margin-left: 10px;
 }
+
+
 
 #downbtn>a>button {
   color: white;
@@ -859,21 +864,7 @@ a:hover {
   }
 }
 
-.skill-mf span {
-  color: #4e4e4e;
-}
 
-.skill-mf .progress {
-  background-color: #cde1f8;
-  margin: 0.5rem 0 1.2rem 0;
-  border-radius: 0;
-  height: 0.7rem;
-}
-
-.skill-mf .progress .progress-bar {
-  height: 0.7rem;
-  background-color: #0078ff;
-}
 
 /*--------------------------------------------------------------
 # Services
@@ -1066,6 +1057,7 @@ a:hover {
   grid-template-columns: repeat(2, 1fr);
 
 }
+
 @media screen and (min-width:281px) and (max-width:1000px) {
   .project_schema {
     grid-template-columns: repeat(1, 1fr);
@@ -1228,7 +1220,8 @@ a:hover {
     padding-left: 0rem;
   }
 }
-#thankYouimg{
+
+#thankYouimg {
   width: 40%;
 }
 
